@@ -18,4 +18,4 @@ So if you wanted a 5px grid on your canvas, just change the inc variable to 5 an
 And if you wanted a 10px grid on your canvas, change inc to 10 and...
 ![10px Grid](https://lh3.googleusercontent.com/-HGWLgSdSQC4/USqiks4qbMI/AAAAAAAACDM/EIPokXwpV-M/w839-h395-o-k/10pixel.PNG "10px Grid on Canvas")
 
-I think you get the idea. Each block on the grid represents the grid spacing that you provide in the inc variable. So if you set it to 5, each block with be 5 pixels square and so on. Hope this helps some folks out while they are learning HTML5 Canvas, as I am. That is where the idea of this came from. 
+I think you get the idea. Each block on the grid represents the grid spacing that you provide by the inc variable. So if you set it to 5, each block will be 5 pixels square and so on. Hope this helps some folks out while they are learning HTML5 Canvas, as I am. 
