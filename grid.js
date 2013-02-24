@@ -6,7 +6,7 @@ window.onload = function(){
 	ctx = canvas.getContext('2d');
 	height = canvas.clientHeight;
 	width = canvas.clientWidth;
-
+	inc = 10; // change this to adjust your grid spacing!!
 	}
 
 	init();
@@ -14,7 +14,7 @@ window.onload = function(){
 	function drawGrid(){
 
 		for (var h = 0; h < width; h++) {
-			if(h % 10 === 0){
+			if(h % inc === 0){
 				ctx.beginPath();
 				ctx.moveTo(h, 0);
 				ctx.lineTo(h, height);
@@ -24,8 +24,8 @@ window.onload = function(){
 			}
 		}
 
-		for (var l = 0; l < width; l++) {
-			if(l % 10 === 0){
+		for (var l = inc; l < width; l++) {
+			if(l % inc === 0){
 				ctx.beginPath();
 				ctx.moveTo(0, l);
 				ctx.lineTo(width, l);
