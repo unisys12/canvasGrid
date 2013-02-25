@@ -38,5 +38,13 @@ window.onload = function(){
 	}
 
 	drawGrid();
+	
+	/** Your code goes below here!! Then, when you 
+	 *  are through using the grid, just create a new
+	 *  file for your code, with your canvas var and 
+	 *  paste your code there. This is rough right
+	 *  now, so I am going to work on a better 
+	 *  solution.
+	 **/
 
 };
