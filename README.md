@@ -10,7 +10,7 @@ I was taking some ideas I got from some lessons I went through the night before 
 Just import the grid.js file into your project. Of course, point to it. As long as the id of your canvas is "canvas" your golden. If not, you can either adjust the id of your element or adjust the files canvas variable, whichever makes you happy tickles me to death. Be sure to set the width and height of your canvas in the element or within your CSS. I have read different takes on this, but whatever works for you again... tickles me to death. 
 
 ###Adjusting the Grid
-The file dynamically grabs your canvase size, so there is no need for adjustments to that. All you need to do is open the **grid.js** file and find the var *"inc"* (for increment) within the init function, at the top of the file. Adjust this var to meet your needs.
+The file dynamically grabs your canvase size, so there is no need for adjustments to that. All you need to do is open the **grid.js** file and look at the bottom where drawGrid('increment') is called. Adjust the value inside the () to meet your needs. The default is 10, so just play around with it.
 
 So if you wanted a 5px grid on your canvas, just change the inc variable to 5 and walla! 
 ![5px Grid](https://lh4.googleusercontent.com/-1LcHfAl5rzA/USqilSKscbI/AAAAAAAACDc/gnwbIfbX0k0/w904-h428-o-k/5pixel.PNG "5px Grid on Canvas")
@@ -18,4 +18,4 @@ So if you wanted a 5px grid on your canvas, just change the inc variable to 5 an
 And if you wanted a 10px grid on your canvas, change inc to 10 and...
 ![10px Grid](https://lh3.googleusercontent.com/-HGWLgSdSQC4/USqiks4qbMI/AAAAAAAACDM/EIPokXwpV-M/w839-h395-o-k/10pixel.PNG "10px Grid on Canvas")
 
-I think you get the idea. Each block on the grid represents the grid spacing that you provide by the inc variable. So if you set it to 5, each block will be 5 pixels square and so on. Hope this helps some folks out while they are learning HTML5 Canvas, as I am. 
+I think you get the idea. Each block on the grid represents the grid spacing that you provide by the increment parameter. So if you set it to 5, each block will be 5 pixels square and so on. Hope this helps some folks out while they are learning HTML5 Canvas, as I am. 
