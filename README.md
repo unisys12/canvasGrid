@@ -12,10 +12,10 @@ Just import the grid.js file into your project. Of course, point to it. As long 
 ###Adjusting the Grid
 The file dynamically grabs your canvase size, so there is no need for adjustments to that. All you need to do is open the **grid.js** file and look at the bottom where drawGrid('increment') is called. Adjust the value inside the () to meet your needs. The default is 10, so just play around with it.
 
-So if you wanted a 5px grid on your canvas, just change the inc variable to 5 and walla! 
+So if you want a 5px grid on your canvas, just change the increment parameter to 5 and walla! 
 ![5px Grid](https://lh4.googleusercontent.com/-1LcHfAl5rzA/USqilSKscbI/AAAAAAAACDc/gnwbIfbX0k0/w904-h428-o-k/5pixel.PNG "5px Grid on Canvas")
 
-And if you wanted a 10px grid on your canvas, change inc to 10 and...
+And if you wanted a 10px grid on your canvas, change increment to 10 and...
 ![10px Grid](https://lh3.googleusercontent.com/-HGWLgSdSQC4/USqiks4qbMI/AAAAAAAACDM/EIPokXwpV-M/w839-h395-o-k/10pixel.PNG "10px Grid on Canvas")
 
 I think you get the idea. Each block on the grid represents the grid spacing that you provide by the increment parameter. So if you set it to 5, each block will be 5 pixels square and so on. Hope this helps some folks out while they are learning HTML5 Canvas, as I am. 
