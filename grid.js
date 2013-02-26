@@ -1,15 +1,11 @@
-function init(){
+function drawGrid(increment){
+	
+	var canvas = document.getElementById('canvas');
+	var ctx = canvas.getContext('2d');
+	var height = canvas.clientHeight;
+	var width = canvas.clientWidth;
 
-canvas = document.getElementById('canvas');
-ctx = canvas.getContext('2d');
-height = canvas.clientHeight;
-width = canvas.clientWidth;
-inc = 10; // change this to adjust your grid spacing!!
-}
-
-init();
-
-function drawGrid(){
+	var inc = increment;
 
 	for (var h = 0; h < width; h++) {
 		if(h % inc === 0){
@@ -32,7 +28,6 @@ function drawGrid(){
 		}
 	}
 
-
 }
 
-drawGrid();
+drawGrid(10); // Change this parameter to update the grid size
