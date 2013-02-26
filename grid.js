@@ -4,7 +4,6 @@ function drawGrid(increment){
 	var ctx = canvas.getContext('2d');
 	var height = canvas.clientHeight;
 	var width = canvas.clientWidth;
-
 	var inc = increment;
 
 	for (var h = 0; h < width; h++) {
