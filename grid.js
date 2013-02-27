@@ -1,5 +1,5 @@
 function drawGrid(increment){
-	
+
 	var canvas = document.getElementById('canvas');
 	var ctx = canvas.getContext('2d');
 	var height = canvas.clientHeight;
@@ -26,7 +26,4 @@ function drawGrid(increment){
 			ctx.stroke();
 		}
 	}
-
 }
-
-drawGrid(10); // Change this parameter to update the grid size
